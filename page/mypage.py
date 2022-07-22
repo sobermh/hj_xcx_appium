@@ -44,7 +44,7 @@ class MyPage(BasePage):
     coupon_loc=(By.XPATH,'//*[@id="personal"]/wx-view/wx-view[4]/wx-van-cell[1]/wx-view/wx-view[1]/wx-view/wx-view')
     revice_address_loc=(By.XPATH,'//*[@id="personal"]/wx-view/wx-view[4]/wx-van-cell[2]/wx-view')
     kefu_loc=(By.XPATH,'//*[@id="personal"]/wx-view/wx-view[4]/wx-van-cell[3]/wx-view/wx-view[1]/wx-view/wx-view')
-    loginout_loc=(By.XPATH,'//*[@id="personal"]/wx-view/wx-view[5]/wx-van-button/wx-button/wx-view')
+    loginout_loc=(By.XPATH,'//*[@id="personal"]/view/view[5]/van-button//button')
 
     #点击采样点待支付
     def click_wait_payoffline(self):

@@ -23,3 +23,12 @@
   　　　　　　　   ┃┫┫     ┃┫┫
   　　　　　　　   ┗┻┛     ┗┻┛+ + + +
 """
+
+
+import os
+
+import pytest
+
+pytest.main(['-vs', "--alluredir", "./report/tmp", "--clean-alluredir"])
+
+# os.system("allure serve ./report/tmp")
